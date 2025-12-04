@@ -36,41 +36,13 @@ pip install -r requirements.txt
 }
 ```
 
-## 도구
+## 제공 도구
 
-### get_info
+| 도구 | 설명 |
+|------|------|
+| `parse_history` | 브라우저 히스토리 SQLite DB 파일을 파싱 |
+| `get_info` | 도구 정보 조회 |
 
-MCP 서버 정보를 반환합니다.
+## 작성자
 
-**파라미터:** None
-
-**반환값 (JSON):**
-```json
-{
-  "name": "browser-db-parser",
-  "version": "1.0.0",
-  "description": "Browser history database parser MCP server...",
-  "supported_browsers": ["Chromium-based", "Mozilla-based", "Safari-based"],
-  "tools": [...]
-}
-```
-
-### parse_history
-
-브라우저 히스토리 SQLite DB 파일을 파싱합니다.
-
-**파라미터:**
-- `history_file_path`: History 파일의 절대 경로
-
-**반환값 (JSON):**
-```json
-{
-  "success": true,
-  "sqlite_version": "3.x.x",
-  "browser_type": "Chromium-based",
-  "browsing_history": [...],
-  "download_history": [...],
-  "browsing_count": 100,
-  "download_count": 10
-}
-```
+Amier-ge
