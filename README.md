@@ -2,7 +2,7 @@
 
 Web HISTORY 파일을 파싱하여 JSON으로 반환하는 MCP Server
 
-## 중요: 폴더 위치
+## 폴더 위치
 
 이 MCP 서버는 반드시 `C:\Users\home\Desktop\Made_Tools\BrowserDBParser` 도구와 **같은 레벨의 경로**에 위치해야 합니다.
 
@@ -27,7 +27,10 @@ pip install -r requirements.txt
   "mcpServers": {
     "browser-db-parser": {
       "command": "python",
-      "args": ["C:\\Users\\home\\Desktop\\Made_Tools\\BrowerDBParser_MCP\\server.py"]
+      "args": ["C:\\Users\\home\\Desktop\\Made_Tools\\BrowerDBParser_MCP\\server.py"],
+      "env": {
+        "PYTHONPATH": "C:\\Users\\home\\Desktop\\Made_Tools\\BrowerDBParser_MCP"
+      }
     }
   }
 }
