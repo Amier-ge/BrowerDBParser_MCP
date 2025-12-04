@@ -1,6 +1,16 @@
 # Browser DB Parser MCP Server
 
-Web History 파일을 파싱하여 JSON으로 반환하는 MCP Server
+Web HISTORY 파일을 파싱하여 JSON으로 반환하는 MCP Server
+
+## 중요: 폴더 위치
+
+이 MCP 서버는 반드시 `C:\Users\home\Desktop\Made_Tools\BrowserDBParser` 도구와 **같은 레벨의 경로**에 위치해야 합니다.
+
+```
+C:\Users\home\Desktop\Made_Tools\
+├── BrowserDBParser\        ← Amier-ge/BrowserDBParser Tool
+└── BrowerDBParser_MCP\     ← MCP Server
+```
 
 ## 설치
 
